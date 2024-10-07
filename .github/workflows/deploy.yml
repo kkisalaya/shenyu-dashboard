@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - master
+      - no_branch
 
 jobs:
   build_and_deploy_job:
